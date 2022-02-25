@@ -1,0 +1,17 @@
+div.cancel {
+    display: grid;
+    justify-items: center;
+    margin-left: 25px;
+
+    grid-template-rows: 40px 40px 40px;
+    gap: 10px;
+}
+
+div.cancel > span.info {
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+div.cancel span.r {
+    color: red;
+}

@@ -1,0 +1,89 @@
+@media screen and (max-width: 700px) {
+    div.wrapper > div.contact-info-wrapper > h3 {
+        font-size: 16px;
+    }
+
+    div.wrapper > div.contact-info-wrapper > p {
+        display: none;
+    }
+
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 200px 350px;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 555px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.wrapper > div.contact-info-wrapper > h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 200px 300px;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 510px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 200px 270px;
+    }
+
+    div.wrapper > div.contact-info-wrapper > h3 {
+        display: none;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 130px 290px;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 130px 230px;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 130px 200px;
+        grid-template-rows: 40px 40px 220px 60px 10px 200px;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    div.wrapper > div.contact-info-wrapper > div.important-stuff {
+        grid-template-columns: 130px 150px;
+        grid-template-rows: 40px 40px 220px 80px 10px 200px;
+    }
+
+    div.contact-info-wrapper > div.important-stuff > span.info {
+        width: 275px;
+    }
+}

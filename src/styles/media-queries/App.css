@@ -1,0 +1,59 @@
+@media screen and (max-width: 540px) {
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    div.wrapper > div.specific-date-wrapper > span.normal {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
+        font-size: 24px;
+    }
+
+    div.wrapper > div.specific-date-wrapper > span.normal {
+        display: none;
+    }
+
+    div.wrapper > div.specific-date-wrapper > span.small {
+        display: block !important;
+        justify-self: center;
+    }
+
+    div.wrapper > div.main-wrapper > div.calendar-wrapper > span.normal {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    div.wrapper > div.main-wrapper > div.calendar-wrapper > span.normal {
+        display: none;
+    }
+
+    div.wrapper > div.main-wrapper > div.calendar-wrapper > span.small {
+        justify-self: center;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
+        font-size: 16px;
+    }
+
+    div.wrapper > div.main-wrapper > div.calendar-wrapper button.calendar-button {
+        width: 240px;
+    }
+}
+
+

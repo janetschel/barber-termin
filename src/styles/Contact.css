@@ -1,0 +1,102 @@
+div.contact-info-wrapper {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.contact-info-wrapper > p > span {
+    text-decoration: underline;
+}
+
+div.contact-info-wrapper > p {
+    margin: 10px;
+}
+
+div.contact-info-wrapper > h3 {
+    margin-top: 30px;
+}
+
+div.contact-info-wrapper > h3 > span.important {
+    color: #79b2bf;
+}
+
+div.contact-info-wrapper > div.important-stuff {
+    margin-top: 10px;
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 200px auto;
+    grid-template-rows: 40px 40px 220px 40px 10px 200px;
+    grid-template-areas: "id-name name"  "id-mail mail" "id-note note" ". button" "hr hr" "info info";
+
+    justify-items: start;
+}
+
+div.contact-info-wrapper > div.important-stuff > span.name {
+    vertical-align: middle;
+    line-height: 35px;
+    width: auto;
+    grid-area: id-name;
+}
+
+div.contact-info-wrapper > div.important-stuff > input.name {
+    width: 100%;
+    grid-area: name;
+}
+
+div.contact-info-wrapper > div.important-stuff > span.mail {
+    vertical-align: middle;
+    line-height: 35px;
+    width: auto;
+    grid-area: id-mail;
+}
+
+div.contact-info-wrapper > div.important-stuff > input.mail {
+    width: 100%;
+    grid-area: mail;
+}
+
+div.contact-info-wrapper > div.important-stuff > span.note {
+    vertical-align: middle;
+    line-height: 35px;
+    width: auto;
+    grid-area: id-note;
+}
+
+div.contact-info-wrapper > div.important-stuff > textarea.note {
+    width: 100%;
+    grid-area: note;
+    height: 200px;
+    resize: none;
+}
+
+div.contact-info-wrapper > div.important-stuff > button {
+    grid-area: button;
+    justify-self: end;
+}
+
+div.contact-info-wrapper > div.important-stuff > span > span.r {
+    color: red;
+}
+
+div.contact-info-wrapper > div.important-stuff > hr {
+    margin-top: 50px;
+    width: 100%;
+    color: rgba(211, 211, 211, 0.75);
+    grid-area: hr;
+}
+
+div.contact-info-wrapper > div.important-stuff > span.info {
+    white-space: normal;
+    width: 650px;
+    margin-top: 70px;
+    grid-area: info;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+
+
+

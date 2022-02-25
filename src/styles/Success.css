@@ -1,0 +1,25 @@
+div.success {
+    display: grid;
+    justify-items: center;
+}
+
+div.success > h2, div.success > h3, div.success > span {
+    text-align: center;
+    padding: 0 10px;
+}
+
+div.success > h3 {
+    margin: 0;
+}
+
+div.success > span {
+    margin-top: 10px;
+}
+
+div.success span.important {
+    color: #79b2bf;
+}
+
+div.success > .back {
+    margin-top: 20px;
+}

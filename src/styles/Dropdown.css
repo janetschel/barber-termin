@@ -1,0 +1,6 @@
+div.dropdown-wrapper {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}

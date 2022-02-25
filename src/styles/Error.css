@@ -1,0 +1,22 @@
+div.error {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+}
+
+div.error > span.errorMessage {
+    font-size: 20px;
+}
+
+div.error > span.errorMessage {
+    font-size: 20px;
+}
+
+div.error > .back {
+    margin-top: 20px;
+}
+
+div.error > span, div.success > .back {
+    text-align: center;
+    padding: 0 10px;
+}

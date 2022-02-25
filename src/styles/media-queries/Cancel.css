@@ -1,0 +1,21 @@
+@media screen and (max-width: 510px) {
+    div.cancel > span.info.normal {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div.cancel > span.info.normal {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    div.cancel > span.small {
+        display: block;
+    }
+
+    div.cancel > span.normal {
+        display: none;
+    }
+}
