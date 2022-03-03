@@ -5,37 +5,10 @@
 }
 
 @media screen and (max-width: 530px) {
-    div.wrapper > div.specific-date-wrapper > span.normal {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
-        font-size: 24px;
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > select {
+        width: 450px;
     }
 
-    div.wrapper > div.specific-date-wrapper > span.normal {
-        display: none;
-    }
-
-    div.wrapper > div.specific-date-wrapper > span.small {
-        display: block !important;
-        justify-self: center;
-    }
-
-    div.wrapper > div.main-wrapper > div.calendar-wrapper > span.normal {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 380px){
     div.wrapper > div.main-wrapper > div.calendar-wrapper > span.normal {
         display: none;
     }
@@ -46,6 +19,39 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
+        font-size: 24px;
+    }
+
+    div.wrapper > div.main-wrapper > div.calendar-wrapper > span.normal {
+        font-size: 14px;
+    }
+
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > select {
+        width: 375px;
+    }
+
+    div.wrapper > div.specific-date-wrapper > span.normal {
+        display: none;
+    }
+
+    div.wrapper > div.specific-date-wrapper > span.small {
+        display: block !important;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
+        font-size: 20px;
+    }
+
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > select {
+        width: 330px;
+    }
+}
+
 @media screen and (max-width: 350px) {
     div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > h1 {
         font-size: 16px;
@@ -53,6 +59,10 @@
 
     div.wrapper > div.main-wrapper > div.calendar-wrapper button.calendar-button {
         width: 240px;
+    }
+
+    div.wrapper > div.welcome-wrapper > form > div.dropdown-wrapper > select {
+        width: 275px;
     }
 }
 

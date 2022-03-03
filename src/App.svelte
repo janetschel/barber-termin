@@ -1,4 +1,6 @@
 <script>
+    import "./styles/App.css";
+
     import Dropdown from "./components/Dropdown.svelte";
     import Calendar from "./components/Calendar.svelte";
     import Banner from "./components/Banner.svelte";
@@ -76,7 +78,7 @@
             <div class = "welcome-wrapper" bind:this = {welcome}>
                 <Dropdown
                         question = "Was soll bei Dir gemacht werden?"
-                        values = {["Nur Haare (ca. 30 Minuten)", "Haare und Bart (ca. 60 Minuten)"]}
+                        values = {["Haarschnitt (ca. 30 Minuten)", "Haarschnitt mit Bartrasur (ca. 60 Minuten)", "Haarschnitt und Augenbrauen (+ Bartrasur, ca. 60 Minuten)"]}
                         continueText = "Weiter"
                         on:done = {handleDropdownCallback}
                 />

@@ -4,3 +4,8 @@ div.dropdown-wrapper {
     align-content: center;
     justify-content: center;
 }
+
+div.dropdown-wrapper > select, div.dropdown-wrapper > button {
+    border-radius: 10px;
+    background: white;
+}

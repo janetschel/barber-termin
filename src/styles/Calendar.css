@@ -14,3 +14,21 @@ div.calendar-wrapper > div.datepicker {
     width: fit-content !important;
     margin: auto !important;
 }
+
+div.contents-wrapper, div.contents-wrapper > div.wrapper,  div.contents-wrapper > div.wrapper > div.contents-inner, div.contents-wrapper > div.wrapper > div.contents-inner > div.contents {
+    border-radius: 10px;
+}
+
+div.contents-wrapper > div.wrapper > div.contents-inner > div.contents > div.toolbar > button {
+    background: black;
+}
+
+div.contents-wrapper > div.wrapper > div.contents-inner > div.contents > div.toolbar > button:hover {
+    cursor: pointer;
+}
+
+.highlighted {
+    border-color: black !important
+}
+
+.selection-start .day--label { background-color: #3252be !important;}

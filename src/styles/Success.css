@@ -17,9 +17,10 @@ div.success > span {
 }
 
 div.success span.important {
-    color: #79b2bf;
+    text-decoration: underline;
 }
 
 div.success > .back {
     margin-top: 20px;
+    color: lightblue;
 }

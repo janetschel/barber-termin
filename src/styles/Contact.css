@@ -19,7 +19,7 @@ div.contact-info-wrapper > h3 {
 }
 
 div.contact-info-wrapper > h3 > span.important {
-    color: #79b2bf;
+    text-decoration: underline;
 }
 
 div.contact-info-wrapper > div.important-stuff {
@@ -98,5 +98,14 @@ div.contact-info-wrapper > div.important-stuff > span.info {
     text-align: left;
 }
 
+div.contact-info-wrapper > div.important-stuff > span.info > a {
+    color: lightblue;
+}
 
+div.contact-info-wrapper > div.important-stuff > input, div.contact-info-wrapper > div.important-stuff > textarea {
+    border-radius: 5px;
+}
 
+div.contact-info-wrapper > div.important-stuff > button {
+    border-radius: 5px;
+}
