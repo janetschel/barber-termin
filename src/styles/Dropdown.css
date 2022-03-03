@@ -9,3 +9,11 @@ div.dropdown-wrapper > select, div.dropdown-wrapper > button {
     border-radius: 10px;
     background: white;
 }
+
+div.dropdown-wrapper > select > option {
+    color: black !important;
+}
+
+div.dropdown-wrapper > select {
+    color: black !important;
+}
